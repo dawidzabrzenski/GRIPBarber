@@ -5,7 +5,7 @@ function BoxDetails({ desc, index }) {
         <div className="hidden text-white text-4xl bg-gold px-2 mb-4 md:inline-block">
           {index}
         </div>
-        <p className="md:text-justify text-gold font-juzek text-2xl leading-12 tracking-wider uppercase mb-10 md:mb-0 md:text-xl lg:text-2xl">
+        <p className="md:text-justify text-gold font-juzek text-xl  lg:text-2xl leading-12 tracking-wider uppercase mb-10 md:mb-0 md:text-xl lg:text-2xl">
           {desc}
         </p>
       </div>

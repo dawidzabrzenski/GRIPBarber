@@ -6,12 +6,11 @@ function Header() {
     <>
       <Navbar />
       <div
-        className="bg-cover bg-center bg-hero bg-fixed bg-dark px-4 min-h-screen flex items-center justify-center flex-col "
+        className="bg-scroll bg-cover bg-no-repeat bg-dark bg-top px-4 min-h-screen flex items-center justify-center flex-col "
         style={{
-          backgroundImage: `url('./img/header-background.jpg')`,
-          opacity: 1,
-          backgroundSize: "cover",
+          backgroundImage: `url('./img/header-background.webp')`,
         }}
+        id="header"
       >
         <h1 className="font-raleway text-4xl text-gold font-bold text-center mb-3 animate-[fadeIn_1s_ease-in]">
           <span className="font-raleway text-4xl text-white font-normal text-center sm:text-6xl 2xl:text-6xl animate-[fadeLIn_1s_ease-in]">
@@ -52,21 +51,21 @@ function Header() {
         </div>
         <div className="hidden 2xl:flex 2xl:flex-col 2xl:items-center 2xl:gap-8 2xl:absolute 2xl:right-8 animate-[fadeIn_1s_ease-in]">
           <div className="w-1 h-32 bg-gold"></div>
-          <a href="www.facebook.com/gripbarber">
+          <a href="//www.facebook.com/gripbarber">
             <img
               src="./img/icon-fb.svg"
               className="cursor-pointer hover:scale-125 transition-all"
               alt="Barber Shop Facebook icon"
             />
           </a>
-          <a href="www.instagram.com/gripbarber">
+          <a href="//www.instagram.com/gripbarber">
             <img
               src="./img/icon-ig.svg"
               className="cursor-pointer hover:scale-125 transition-all"
               alt="Barber Shop Instagram icon"
             />
           </a>
-          <a href="www.tiktok.com/gripbarber">
+          <a href="//www.tiktok.com/gripbarber">
             <img
               src="./img/icon-tt.svg"
               className="cursor-pointer hover:scale-125 transition-all"

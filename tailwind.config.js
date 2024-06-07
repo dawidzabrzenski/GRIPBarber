@@ -37,10 +37,6 @@ module.exports = {
           "100%": { opacity: "1", transform: "translateX(0px)" },
         },
       },
-      screens: {
-        // "2xl": "1920px",
-        // => @media (min-width: 992px) { ... }
-      },
     },
   },
   plugins: [],

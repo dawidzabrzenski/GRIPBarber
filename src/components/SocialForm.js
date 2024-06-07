@@ -1,11 +1,16 @@
 const SocialForm = ({ urlProp, imgProp, altProp }) => {
+  const hrefProp = `//${urlProp}`;
+
   return (
-    <div className="flex items-center text-sm gap-6 mb-4 font-light">
+    <a
+      href={hrefProp}
+      className="flex items-center text-sm gap-8 mb-4 font-light"
+    >
       <img src={imgProp} alt={altProp}></img>
-      <div className="tracking-wider text-white font-raleway sm:text-xl lg:text-base xl:text-sm 2xl:text-lg">
+      <div className="tracking-wider text-white font-raleway sm:text-xl lg:text-base xl:text-sm 2xl:text-base">
         {urlProp}
       </div>
-    </div>
+    </a>
   );
 };
 

@@ -33,7 +33,7 @@ function Contact() {
       id="contact"
     >
       <SectionHeading title="KONTAKT" />
-      <div className="flex flex-col gap-12 md:items-center lg:flex-row lg:justify-center 2xl:gap-0">
+      <div className="flex flex-col gap-12 lg:flex-row md:justify-center 2xl:gap-0">
         <div className="flex flex-col justify-center gap-2 w-full md:w-2/3 xl:w-1/3 2xl:w-2/3">
           {inputObject.map((input, index) => (
             <InputField
@@ -45,7 +45,7 @@ function Contact() {
           ))}
 
           <textarea
-            className="p-2 w-full min-h-[12rem] text-sm h-auto resize-none border border-gold font-raleway font-light focus:outline-0 relative shadow-custom 2xl:h-96 2xl:w-5/6"
+            className="p-2 w-full min-h-[12rem] text-sm h-auto resize-none border border-gold font-raleway font-light focus:outline-0 relative shadow-custom 2xl:h-72 2xl:w-5/6"
             onClick={handleTextareaClick}
             value={message}
             onChange={(e) => setMessage(e.target.value)}

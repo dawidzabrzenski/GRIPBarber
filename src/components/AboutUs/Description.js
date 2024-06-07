@@ -6,7 +6,7 @@ const Description = () => {
         alt="Pose showing our team"
         className="shadow-custom border-2 border-gold w-full md:w-7/8 xl:w-5/12 2xl:w-2/5"
       ></img>
-      <div className="sm:mb-6 lg:flex-col w-full 2xl:w-3/6 px-6">
+      <div className="sm:mb-6 lg:flex-col w-full 2xl:w-3/6 2xl:px-6">
         <h4 className="text-justify	font-raleway font-medium mb-4 text-xl leading-5 tracking-wide sm:text-3xl sm:leading-7 sm:mb-5 lg:mb-4 md:text-xl lg:text-2xl 2xl:text-3xl 2xl:mb-4 2xl:tracking-wide">
           Witamy w{" "}
           <span className="text-gold font-bold">GRIP Barber Academy</span>{" "}

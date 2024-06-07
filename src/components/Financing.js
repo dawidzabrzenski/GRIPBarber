@@ -5,11 +5,9 @@ function Financing() {
     <>
       <div className="relative ">
         <div
-          className="absolute inset-0 bg-cover bg-fixed bg-center z-0 "
+          className="absolute inset-0 bg-scroll bg-cover bg-no-repeat bg-center z-0 "
           style={{
             backgroundImage: `url('./img/photos/photo-4.jpg')`,
-            opacity: 0.5,
-            backgroundSize: "cover",
           }}
         />
         <div className="flex flex-col justify-evenly gap-8 items-center w-full bg-dark bg-opacity-80 py-16 px-4 2xl:px-20 relative z-10">

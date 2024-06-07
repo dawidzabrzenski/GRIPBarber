@@ -1,14 +1,15 @@
 import SectionHeading from "./Utility/SectionHeading";
-import Persons from "./Team/Persons";
+import Person from "./Team/Person";
+import Slider from "./Utility/Slider";
 
 function Team() {
   return (
-    <div
-      className="bg-neutral-100 flex flex-col items-center w-full py-8 px-4"
-      id="team"
-    >
+    <div className="bg-neutral-100 flex flex-col w-full py-8 px-4" id="team">
       <SectionHeading title="NASZ ZESPÓŁ"></SectionHeading>
-      <Persons></Persons>
+      {/* <Persons></Persons> */}
+      <div>
+        <Slider></Slider>
+      </div>
     </div>
   );
 }
